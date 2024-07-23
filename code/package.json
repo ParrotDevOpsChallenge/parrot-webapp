@@ -1,0 +1,53 @@
+{
+  "name": "biacot-webapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint --fix src/**/*.{js,jsx,}",
+    "format": "prettier --config .pretterrc.json --write src/**/*.{js,jsx,css,}",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.6",
+    "@radix-ui/react-icons": "^1.3.0",
+    "antd": "^5.7.0",
+    "aws-amplify": "^5.3.11",
+    "aws-appsync-auth-link": "^3.0.7",
+    "aws-appsync-subscription-link": "^3.1.2",
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.3.0",
+    "class-variance-authority": "^0.6.1",
+    "clsx": "^1.2.1",
+    "graphql": "^15.8.0",
+    "localforage": "^1.10.0",
+    "lucide-react": "^0.259.0",
+    "match-sorter": "^6.3.1",
+    "moment": "^2.29.4",
+    "pusher": "^5.1.3",
+    "pusher-js": "^8.3.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "sort-by": "^1.2.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "prettier": "^3.0.0",
+    "vite": "^4.4.0"
+  }
+}

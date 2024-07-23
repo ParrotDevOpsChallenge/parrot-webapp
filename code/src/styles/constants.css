@@ -1,0 +1,14 @@
+:root {
+    --layout-header-height: 70px;
+    --layout-footer-height: 32px;
+    --color-primary: #25a18e;
+    --color-secondary: #7ae582;
+    --color-tertiary: #9fffcb;
+    --color-primary-blue: #00a5cf;
+    --color-secondary-blue: #004e64;
+    /*--color-background-gray: #f0f2f5;*/
+    --color-background-gray: #f8fbff;
+
+    --dark-blue: #424d62;
+    --color-primary-2: #5366ef;
+}

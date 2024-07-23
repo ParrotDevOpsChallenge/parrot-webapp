@@ -13,7 +13,7 @@ echo "run_env: ${ENV}"
 # Run container
 echo "run_container: $PROJECT_NAME:local"
 CODE_PATH=$(cd ../code ; pwd -P)
-docker run -ti \
+docker run -i \
     --rm="true" \
     -p 5173:5173 \
     --env-file ../secrets/envs.${ENV}.sh \
